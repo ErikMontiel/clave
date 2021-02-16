@@ -1,0 +1,57 @@
+<br>
+<div class="row justify-content-md-center">
+    <div class="col col-lg-4">
+        <form id="formulario">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Ingresa</label>
+                <input type="text" class="form-control letra" id="captura_nombre" aria-describedby="emailHelp" placeholder=" Nombre(s)">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Ingresa Apellido</label>
+                <input type="text" class="form-control letra" id="captura_paterno" aria-describedby="emailHelp" placeholder="Paterno">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Ingresa Apellido</label>
+                <input type="text" class="form-control letra" id="captura_materno" aria-describedby="emailHelp" placeholder="Materno">
+            </div>
+
+            <div class="form-group">
+                <label for="edad">Ingresa Fecha de nacimiento</label>
+                <select name="dia" id="captura_dia">
+                <option value="">dia</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+
+
+                <select name="dia" id="captura_mes">
+                    <option value="">Mes</option>
+                    <option value="01">Ene</option>
+                    <option value="02">Feb</option>
+                    <option value="03">Mar</option>
+                </select>
+
+
+                <select name="dia" id="captura_año">
+                    <option value="">Año</option>
+                    <option value="94">1994</option>
+                    <option value="95">1995</option>
+                    <option value="96">1996</option>
+                </select>
+            </div>
+
+            <span id="btn_trabaja" class="btn btn-primary">Generar</span>
+
+            <div class="form-group">
+                <h1>RFC con Homoclave</h1>
+                <h3><small id="resultado_bd" class="form-text text-muted"></small></h3>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="manager/manager_clave.js"></script>
